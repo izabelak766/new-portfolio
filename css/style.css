@@ -147,7 +147,11 @@ text-align: center;
 
 }
 
-.logos {
+.social {
+  padding: 10px;
+}
+
+.logo {
   max-width: 250px;
  max-height: 250px;
  min-width: 100px;
