@@ -172,7 +172,11 @@ text-align: center;
 
 } */
 
-
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .centered_images {
   text-align: center;
 }
@@ -280,17 +284,14 @@ nav {
 
 #about-page h3
 { margin-top: 0;}
+}
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
 }
 
-.container {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 /* ==============================
 X-large devices (1440px or larger)
