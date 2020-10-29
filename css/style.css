@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -274,6 +278,7 @@ nav {
 
   [class*="col-"] {
     float: left;
+    padding: 20px;
   }
 
   .row::after {
@@ -282,13 +287,25 @@ nav {
   display: table;
 }
 
+.col-md-6 {
+  width: 50%;
+}
+
 #about-page h3
 { margin-top: 0;}
+
 }
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+  .col-lg-7 {
+    width: 60%;
+  }
+
+  .col-lg-5{
+    width: 40%;
+  }
 }
 
 
