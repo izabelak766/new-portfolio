@@ -8,20 +8,24 @@
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/c2438cde99.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-	<header class="container">
-		<div>
+	<header>
+		<div class="container">
+			<div class="navtoggle" id="myNavtoggle">
 			<a href="#"><img class="logo" src="images/izabelaLogo.svg"/></a>
 			<nav>
 				<ul class="navigation">
 				<li><a href="index.html">Work</a></li>
 				<li><a href="about.html">About</a></li>
 				<li><a href="#contact">Home</a></li>
+				<li><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></a></li>
 			</ul>
 			</nav>
 		</div>
+	</div>
 	</header>
 
 
@@ -1082,6 +1086,7 @@ rewarding part of my job.</p>
 <p>Copyright Izabela Kokoszka 2020</p>
 </footer>
 
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="js/scripts.js"></script>
 </body>
 </html>
