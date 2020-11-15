@@ -41,7 +41,7 @@ a:focus {
 }
 
 a:visited {
-  color: green;
+  color: #663366;
 }
 
 /*a:link {
@@ -49,20 +49,41 @@ a:visited {
 }*/
 
 a:active {
-  color: yellow;
+  color: #cc6699;
 }
 
 
 .button {
+  display: inline-block;
+  background-color: #ff99cc;
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #ffffcc;
+  transition: 0.2s opacity;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+
+
+
+.button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #cc3366;
-  color: #339999; /* needed to override the default link color */
+  background-color: #ff99cc;
+  color: white; /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #999999; /* width of the border, type, color */
+  border-bottom: 2px solid #ffffcc; /* width of the border, type, color */
   transition: 0.2s opacity;
 }
+*/
+
 
 .button:hover {
   opacity: 0.8; /* Reduces the opacity of the button to 80% */
@@ -71,12 +92,12 @@ a:active {
 
 .resume {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #336666;
-  color: #339999; /* needed to override the default link color */
+  background-color: #ff99cc;
+  color: white; /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #336666; /* width of the border, type, color */
+  border-bottom: 2px solid #ffffcc; /* width of the border, type, color */
   transition: 0.2s opacity;
 }
 
@@ -140,11 +161,11 @@ nav > ul > li > a:visited {
 
 
 nav > ul > li > a:hover {
-  color: green;
+  color: #663366;
 }
 
 nav > ul > li > a:active {
-  color: yellow;
+  color: #cc6699;
 }
 
 /*nav{
@@ -219,21 +240,6 @@ text-align: center;
 }
 .centered_images {
   text-align: center;
-}
-.button {
-  display: inline-block;
-  background-color: #ff7f50;
-  color: white;
-  font-weight: 400;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 3px;
-  border-bottom: 2px solid #994c30;
-  transition: 0.2s opacity;
-}
-
-.button:hover {
-  opacity: 0.8;
 }
 
 
