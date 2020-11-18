@@ -55,19 +55,19 @@ a:active {
   color: #cc6699;
 }
 
-
-.button {
+/*
+.buttonA {
   display: inline-block;
-  background-color: #ff99cc;
-  color: #4A4A4A;
+  background-color: #660033;
+  color: #ffffff;
   font-weight: 400;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #ffffcc;
+  border-bottom: 2px solid #cc6699;
   transition: 0.2s opacity;
 }
-
+*/
 .button:hover {
   opacity: 0.8;
 }
@@ -77,12 +77,12 @@ a:active {
 
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #ff99cc;
-  color: #4A4A4A; /* needed to override the default link color */
+  background-color: #660033;
+  color: #ffffff; /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #ffffcc; /* width of the border, type, color */
+  border-bottom: 2px solid #cc6699; /* width of the border, type, color */
   transition: 0.2s opacity;
 }
 */
@@ -100,7 +100,7 @@ a:active {
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #ffffcc; /* width of the border, type, color */
+  border-bottom: 2px solid #cc6699; /* width of the border, type, color */
   transition: 0.2s opacity;
 }
 
