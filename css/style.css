@@ -95,8 +95,8 @@ a:active {
 
 .resume {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #ff99cc;
-  color: #4A4A4A; /* needed to override the default link color */
+  background-color: #660033;
+  color: #ffffff; /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
