@@ -1,14 +1,17 @@
-*{
+* {
   box-sizing: border-box;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #ffcccc;
 }
 
-h1, h2, h3, h4 {
-  line-height: 1.4;
-}
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.4; }
 
 h1 {
   font-size: 2.75em;
@@ -41,30 +44,30 @@ a:focus {
 }
 
 a:visited {
-  color: #663366;
+  color: white;
 }
 
-/*a:link {
+/* a:link {
   color: red;
-}*/
+ }*/
 
 a:active {
   color: #cc6699;
 }
 
-
-.button {
+/*
+.buttonA {
   display: inline-block;
-  background-color: #ff99cc;
-  color: white;
+  background-color: #660033;
+  color: #ffffff;
   font-weight: 400;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #ffffcc;
+  border-bottom: 2px solid #cc6699;
   transition: 0.2s opacity;
 }
-
+*/
 .button:hover {
   opacity: 0.8;
 }
@@ -74,12 +77,12 @@ a:active {
 
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #ff99cc;
-  color: white; /* needed to override the default link color */
+  background-color: #660033;
+  color: #ffffff; /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #ffffcc; /* width of the border, type, color */
+  border-bottom: 2px solid #cc6699; /* width of the border, type, color */
   transition: 0.2s opacity;
 }
 */
@@ -92,12 +95,12 @@ a:active {
 
 .resume {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #ff99cc;
-  color: white; /* needed to override the default link color */
+  background-color: #660033;
+  color: #ffffff; /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #ffffcc; /* width of the border, type, color */
+  border-bottom: 2px solid #cc6699; /* width of the border, type, color */
   transition: 0.2s opacity;
 }
 
@@ -107,7 +110,7 @@ a:active {
 }
 
 header {
-  background-color: #ff44c4;
+  background-color: #cc6699;
   padding: 10px 0 4px;
 
   /*text-align: center;*/
@@ -367,8 +370,6 @@ Large devices (1024px or larger)
     width: 40%;
   }
 }
-
-
 
 /* ==============================
 X-large devices (1440px or larger)
